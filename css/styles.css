@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #212121;
+    background-color: #fff;
+}
+
+h2 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+}
+
+p {
+        font-size: 16px;
+        line-height: 1.87;
+    color: #757575;
+}
+
+            /*header*/
+
+.logo {
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: #2196F3;
+}
+
+.logo-header {
+    color: #000000;
+}
+
+
+.link {
+    color: #212121;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+.page-nav button {
+    cursor: pointer;
+}
+
+.page-nav button {
+    background-color: #F5F4FA;
+}
+
+.page-nav button:hover,
+.page-nav button:focus {
+    
+    color: #2196F3;
+}
+
+
+/* footer */
+
+.page-footer {
+        width: 1600px;
+        height: 252px;
+        background: #2F303A;
+}
+
+.logo-footer {
+    color: #ffffff;
+}
+
+.footer-address {
+            font-size: 14px;
+            line-height: 1.71;
+            color: #ffffff;
+}
+
+.footer-contacts {
+        font-size: 14px;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
+}
