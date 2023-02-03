@@ -1,7 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.62;
+    font-size: 14px;
     color: #212121;
     background-color: #fff;
 }
@@ -10,21 +9,24 @@ h2 {
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
+        letter-spacing: 0.06em;
 }
 
 p {
         font-size: 16px;
         line-height: 1.87;
-    color: #757575;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
 
             /*header*/
 
 .logo {
-    font-family: 'Raleway';
+        font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
+        text-decoration: none;
         color: #2196F3;
 }
 
@@ -32,8 +34,14 @@ p {
     color: #000000;
 }
 
+.link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 
 .link {
+    text-decoration: none;
     color: #212121;
 }
 
@@ -42,41 +50,65 @@ p {
     color: #2196F3;
 }
 
-.page-nav button {
-    cursor: pointer;
+.contact-link {
+        text-decoration: none;
+        font-weight: 500;
+        line-height: 1.14x;
+        letter-spacing: 0.02em;
+        color: #757575;
 }
 
-.page-nav button {
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3;
+}
+
+            /*--main--*/
+
+.button-filter {
+    font-weight: 500;
+    width: 130px;
+    height: 38px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    line-height: 1.63px; 
+    text-align: center;
     background-color: #F5F4FA;
 }
 
 .page-nav button:hover,
 .page-nav button:focus {
-    
-    color: #2196F3;
+    color: #ffffff;
+    background-color: #2196F3;
 }
 
 
 /* footer */
 
 .page-footer {
-        width: 1600px;
-        height: 252px;
         background: #2F303A;
 }
+
 
 .logo-footer {
     color: #ffffff;
 }
 
+.address-list {
+    font-style: normal;
+}
+
 .footer-address {
-            font-size: 14px;
+            text-decoration: none;
+            font-style: normal;
             line-height: 1.71;
             color: #ffffff;
 }
 
 .footer-contacts {
-        font-size: 14px;
+        text-decoration: none;
+        font-style: normal;
         line-height: 1.71;
         color: rgba(255, 255, 255, 0.6);
 }

@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #212121;
+    background-color: #fff;
+}
+
+        /*--header--*/
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+        color: #2196F3;
+}
+
+.logo-header {
+    color: #000000;
+}
+
+.header-contact > .number {
+    background-color: #757575;
+}
+
+.link {
+    font-weight: 500;
+    line-height: 1.14
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.14x;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3;
+}
+
+            /*--main--*/
+
+.caption {
+    width: 1600px;
+    height: 600px;
+    color: #ffffff;
+    background-color: #2f303a;
+}
+
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #2196F3;
+
+}
+
+.about-section {
+    background-color: #ffffff;
+}
+
+.subtitle {
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.team-selector {
+    background-color: #F5F4FA;
+}
+
+.cards-section {
+    background-color: #ffffff;
+}
+
+        /*--footer--*/
+
+.page-footer {
+    background-color: #2f303a;
+}
+
+.logo-footer {
+    color: #ffffff;
+}
+
+.footer-address {
+    font-style: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-mail {
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-number {
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
