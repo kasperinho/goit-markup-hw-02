@@ -5,19 +5,7 @@ body {
     background-color: #fff;
 }
 
-h2 {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-}
 
-p {
-        font-size: 16px;
-        line-height: 1.87;
-        letter-spacing: 0.03em;
-        color: #757575;
-}
 
             /*header*/
 
@@ -65,7 +53,8 @@ p {
 
             /*--main--*/
 
-.button-filter {
+
+.button-nav {
     font-weight: 500;
     width: 130px;
     height: 38px;
@@ -77,11 +66,29 @@ p {
     background-color: #F5F4FA;
 }
 
-.page-nav button:hover,
-.page-nav button:focus {
-    color: #ffffff;
-    background-color: #2196F3;
+.button-nav:hover,
+.button-nav:focus {
+    color: white;
+    background: #2196F3
 }
+
+
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.desc {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575 ;
+
+}
+
+
 
 
 /* footer */
