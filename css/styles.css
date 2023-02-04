@@ -1,8 +1,19 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --background-footer: #2F303A;
+    --header-logo: #000000;
+    --background-button: #F5F4FA;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #212121;
-    background-color: #fff;
+    color: var(--primary-text-color)
+    background-color: var(--primary-white-color);
 }
 
 
@@ -15,11 +26,11 @@ body {
         font-size: 26px;
         line-height: 1.19;
         text-decoration: none;
-        color: #2196F3;
+        color: var(--accent-color);
 }
 
 .logo-header {
-    color: #000000;
+    color: var(--header-logo);
 }
 
 .link {
@@ -30,12 +41,12 @@ body {
 
 .link {
     text-decoration: none;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .link:hover,
 .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .contact-link {
@@ -43,18 +54,19 @@ body {
         font-weight: 500;
         line-height: 1.14x;
         letter-spacing: 0.02em;
-        color: #757575;
+        color: var(--title-text-color)
 }
 
 .contact-link:hover,
 .contact-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
             /*--main--*/
 
 
 .button-nav {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     width: 130px;
     height: 38px;
@@ -63,18 +75,17 @@ body {
     font-size: 16px;
     line-height: 1.63px; 
     text-align: center;
-    background-color: #F5F4FA;
+    background-color: var(--background-button)
 }
 
 .button-nav:hover,
 .button-nav:focus {
-    color: white;
-    background: #2196F3
+    color: var(--primary-white-color);
+    background: var(--accent-color);
 }
 
 
 .title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -84,7 +95,7 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575 ;
+    color: var(--title-text-color);
 
 }
 
@@ -94,12 +105,12 @@ body {
 /* footer */
 
 .page-footer {
-        background: #2F303A;
+        background: var(--background-footer)
 }
 
 
 .logo-footer {
-    color: #ffffff;
+    color: var(--primary-white-color);
 }
 
 .address-list {
@@ -110,12 +121,17 @@ body {
             text-decoration: none;
             font-style: normal;
             line-height: 1.71;
-            color: #ffffff;
+            color: var(--primary-white-color);
 }
 
 .footer-contacts {
         text-decoration: none;
         font-style: normal;
         line-height: 1.71;
-        color: rgba(255, 255, 255, 0.6);
+        color: var(--secondary-text-color)
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--accent-color);
 }
