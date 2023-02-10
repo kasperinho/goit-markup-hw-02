@@ -32,6 +32,11 @@ body {
     list-style: none;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 
                 /*--header--*/
 
@@ -43,8 +48,6 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 24px;
-    padding-bottom: 25px;
 
     width: 1200px;
 }
@@ -55,6 +58,9 @@ body {
 }
 
 .logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -86,6 +92,8 @@ body {
 
 .header-link .link {
     display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .link {
@@ -113,6 +121,9 @@ body {
 
 .contact-link {
     display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     text-decoration: none;
     font-weight: 500;
     line-height: 1.14x;
@@ -131,8 +142,12 @@ body {
 
 
 .hero-section {
-    width: 1600px;
-    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
     text-align: center;
     color: var(--primary-white-color);
     background-color: #2f303a;
@@ -140,6 +155,7 @@ body {
 
 
 .hero-text {
+        width: 696px;
         margin-top: 0px;
     
         font-weight: 900;
@@ -169,8 +185,8 @@ body {
 
 }
 
-.caption-button:hover,
-.caption-button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: var(--background-button)
 }
 
@@ -185,17 +201,17 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .about-text {
     margin-top: 0;
-    margin-bottom: 94px;
+    visibility: hidden;
 }
 
 .about-title {
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .about-title .item {
@@ -227,7 +243,7 @@ body {
 
 
 .picture-section {
-    
+    padding-top: 0;
 }
 
 .picture-container {
@@ -239,7 +255,6 @@ body {
 .picture-title {
     margin-top: 0;
     margin-bottom: 50px;
-    padding-top: 94px;
 
     font-size: 36px;
     line-height: 1.17;
@@ -250,7 +265,6 @@ body {
 
 .picture {
     display: flex;
-    padding-bottom: 94px;
 }
 
 .picture .item:not(:last-child) {
@@ -272,12 +286,13 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--background-team);
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
 }
 
 .team-title {
     margin-top: 0;
-    padding-top: 94px;
     
     font-size: 36px;
     line-height: 1.17;
@@ -288,18 +303,21 @@ body {
 
 .team-cards {
     display: flex;
-    width: 270px;
-    padding-bottom: 94px;
 
     background-color: var(--secondary-text-color);
 }
 
 .team-cards .item {
+    width: 270px;
     background-color: var(--primary-white-color);
 }
 
 .team-cards .item:not(:last-child) {
     margin-right: 30px;
+}
+
+.item .team-name {
+    margin-bottom: 10px;
 }
 
  .team-name {
@@ -325,6 +343,9 @@ body {
 
 
 .page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
     background-color: var(--background-footer)
 }
 
@@ -332,8 +353,7 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
+
 }
 
 .logo-footer {

@@ -29,6 +29,11 @@ body {
     list-style: none;
 }
 
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
             /*header*/
 
 .header-container {
@@ -38,8 +43,6 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 24px;
-    padding-bottom: 25px;
 
     width: 1200px;
 
@@ -51,12 +54,15 @@ body {
 }
 
 .logo {
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        text-decoration: none;
-        color: var(--accent-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--accent-color);
 }
 
 .logo-header {
@@ -81,6 +87,8 @@ body {
 
 .header-link .link {
     display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .link {
@@ -107,6 +115,9 @@ body {
 }
 
 .contact-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     text-decoration: none;
     font-weight: 500;
     line-height: 1.14x;
@@ -124,16 +135,22 @@ body {
 
             /*--main--*/
 
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .container {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 94px;
         
     width: 1200px;
+}
+
+.hidden-text {
+    visibility: hidden;
 }
 
 .container .button-section {
@@ -211,7 +228,10 @@ body {
 /* footer */
 
 .page-footer {
-        background: var(--background-footer)
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background: var(--background-footer)
 }
 
 
@@ -219,8 +239,6 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 
