@@ -40,10 +40,15 @@ body {
 
                 /*--header--*/
 
-                
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+
 .header-container {
     display: flex;
     align-items: center;
+    
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -206,7 +211,7 @@ body {
 }
 
 .about-text {
-    margin-top: 0;
+    display: none;
     visibility: hidden;
 }
 
@@ -267,11 +272,17 @@ body {
     display: flex;
 }
 
+.picture .item {
+    display: block;
+}
+
 .picture .item:not(:last-child) {
     margin-right: 30px;
 }
 
-
+.item .img {
+    display: block;
+}
 
             /*--team section--*/
 
@@ -307,6 +318,7 @@ body {
 
 .team-cards .item {
     width: 270px;
+    height: 368px;
     background-color: var(--primary-white-color);
 }
 
@@ -315,6 +327,7 @@ body {
 }
 
 .item .team-name {
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
